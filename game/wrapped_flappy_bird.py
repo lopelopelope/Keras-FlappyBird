@@ -6,7 +6,7 @@ import flappy_bird_utils
 import pygame.surfarray as surfarray
 from pygame.locals import *
 from itertools import cycle
-
+import datetime
 FPS = 30
 SCREENWIDTH  = 288
 SCREENHEIGHT = 512
@@ -137,7 +137,7 @@ class GameState:
         # showScore(self.score)
         SCREEN.blit(IMAGES['player'][self.playerIndex],
                     (self.playerx, self.playery))
-
+        pygame.image.save(SCREEN,"./img/"+datetime.datetime.now().isoformat()+".jpeg")
         image_data = pygame.surfarray.array3d(pygame.display.get_surface())
         pygame.display.update()
         #print ("FPS" , FPSCLOCK.get_fps())

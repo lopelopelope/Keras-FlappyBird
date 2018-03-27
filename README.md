@@ -23,6 +23,7 @@ https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html
 git clone https://github.com/yanpanlau/Keras-FlappyBird.git
 cd Keras-FlappyBird
 python qlearn.py -m "Run"
+python imgs2gif.py
 ```
 
 **GPU version (Theano)**

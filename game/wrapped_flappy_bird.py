@@ -7,6 +7,8 @@ import pygame.surfarray as surfarray
 from pygame.locals import *
 from itertools import cycle
 import datetime
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
 FPS = 30
 SCREENWIDTH  = 288
 SCREENHEIGHT = 512

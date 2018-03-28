@@ -14,6 +14,8 @@ https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html
 * Keras 1.0 
 * pygame
 * scikit-image
+* imageio
+* h5py
 
 # How to Run?
 
@@ -23,6 +25,9 @@ https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html
 git clone https://github.com/yanpanlau/Keras-FlappyBird.git
 cd Keras-FlappyBird
 python qlearn.py -m "Run"
+```
+Use ctrl-c to end "Run" when you wanted.
+```
 python imgs2gif.py
 ```
 
